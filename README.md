@@ -26,15 +26,15 @@ A reusable, visual hydration tracker built with Jetpack Compose, Android's frame
 
 ## 🔧 Setup
 
-### 1. Clone or Download the repo
+1. Clone or Download the repo
 
 ```bash
 git clone https://github.com/Cibu-Clara/Framework-Design.git
 ```
 
-### 2. Copy the `FilledGlass.kt` into your project's ui components package. You can also make use of the functions in `HydrationUtils.kt`.
+2. Copy the `FilledGlass.kt` into your project's ui components package. You can also make use of the functions in `HydrationUtils.kt`.
 
-### 3. Make sure you import the resources (`glass_empty.png`, `glass_filled.png`) into your res/drawable directory.
+3. Make sure you import the resources (`glass_empty.png`, `glass_filled.png`) into your res/drawable directory.
 
 ## 🚀 Usage Example
 

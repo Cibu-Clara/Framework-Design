@@ -32,9 +32,9 @@ A reusable, visual hydration tracker built with Jetpack Compose, Android's frame
 git clone https://github.com/Cibu-Clara/Framework-Design.git
 ```
 
-### 2. Copy the FilledGlass.kt into your project's ui components package. You can also make use of HydrationUtils.kt functions.
+### 2. Copy the `FilledGlass.kt` into your project's ui components package. You can also make use of the functions in `HydrationUtils.kt`.
 
-### 3. Make sure you import the resources (glass_empty.png, glass_filled.png) into your res/drawable directory.
+### 3. Make sure you import the resources (`glass_empty.png`, `glass_filled.png`) into your res/drawable directory.
 
 ## 🚀 Usage Example
 
@@ -62,11 +62,11 @@ const val GLASS_WIDTH = 172
 ## ⚙️ Technical Aspects
 
 - Built entirely using Jetpack Compose
-- Uses custom canvas drawing through drawWithContent, allowing low-level rendering control
-- Image masking done using BlendMode.DstIn
+- Uses custom canvas drawing through `drawWithContent`, allowing low-level rendering control
+- Image masking done using `BlendMode.DstIn`
 - Responsively updates fill level and text
-- Layout uses Box layers to simulate the fill and glass overlay
-- Utility functions handle hydration computations: computeHydrationPercent(), computeHydrationLevel()
+- Layout uses `Box` layers to simulate the fill and glass overlay
+- Utility functions handle hydration computations: `computeHydrationPercent()`, `computeHydrationLevel()`
 
 ## 🧩 Use Cases
 
@@ -79,8 +79,10 @@ Proof of Concept:
 
 ![HydrationAppScreenshot](https://github.com/user-attachments/assets/80c730c4-8889-4c69-be08-c491bbdad308)
 
-🪄 Future Ideas
+## 🪄 Future Ideas
 
 - Animate the water rising when quantity increases
 - Add bubble or wave effects and sounds for a more realistic fill
 - Allow user-defined image assets for glass style
+
+‼️ Make sure to install the required dependencies

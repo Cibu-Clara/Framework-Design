@@ -12,16 +12,18 @@ A reusable, visual hydration tracker built with Jetpack Compose, Android's frame
 
 ## 📂 Content
 
+```plaintext
+
 ├── glasscomponent/
-│ ├── FilledGlass.kt // The reusable component
-│ ├── HydrationUtils.kt // Hydration math helpers
-│ └── preview/
-│ └── FilledGlassPreview.kt // Standalone preview
+│   ├── FilledGlass.kt            // The reusable component
+│   ├── HydrationUtils.kt         // Hydration math helpers
+│   └── preview/
+│       └── FilledGlassPreview.kt // Standalone preview
 ├── resources/
-│ ├── glass_filled.png // Mask image used for clipping
-│ └── glass_empty.png // Top-layer overlay
+│   ├── glass_filled.png          // Mask image used for clipping
+│   └── glass_empty.png           // Top-layer overlay
 ├── README.md
-└── build.gradle.kts
+```
 
 ## 🔧 Setup
 

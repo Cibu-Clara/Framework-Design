@@ -13,7 +13,6 @@ A reusable, visual hydration tracker built with Jetpack Compose, Android's frame
 ## 📂 Content
 
 ```plaintext
-
 ├── glasscomponent/
 │   ├── FilledGlass.kt            // The reusable component
 │   ├── HydrationUtils.kt         // Hydration math helpers

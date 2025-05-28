@@ -77,7 +77,7 @@ const val GLASS_WIDTH = 172
 
 Proof of Concept:
 
-![HydrationAppScreenshot](https://github.com/user-attachments/assets/80c730c4-8889-4c69-be08-c491bbdad308)
+![image](https://github.com/user-attachments/assets/c2b12e63-1330-4dfe-907b-0443fecb82ce)
 
 ## 🪄 Future Ideas
 
